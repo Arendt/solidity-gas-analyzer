@@ -1,0 +1,21 @@
+{
+  "name": "solidity-gas-analyzer-backend",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "app": "node app.js"
+  },
+  "keywords": [],
+  "author": "Rick Arendt",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "class-transformer": "^0.5.1",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.1",
+    "reflect-metadata": "^0.1.13",
+    "solc": "^0.8.13",
+    "web3": "^1.7.3"
+  },
+  "description": ""
+}

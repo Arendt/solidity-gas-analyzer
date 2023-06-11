@@ -1,0 +1,11 @@
+{
+  "name": "solidity-gas-analyzer",
+  "workspaces": [
+    "packages\\backend",
+    "packages\\gui"
+  ],
+  "scripts": {
+	"app": "npm run app -w ./packages/backend",
+	"build": "npm run build -w ./packages/gui"
+  }
+}
